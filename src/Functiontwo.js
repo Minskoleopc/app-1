@@ -21,3 +21,8 @@ const Functiontwo = () =>{
 }
 
 export default Functiontwo;
+
+// shotcircuit 
+// tenary 
+// variable , element based
+// props
