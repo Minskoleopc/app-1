@@ -10,6 +10,9 @@ import Functionfive from './Functionfive';
 import Functionsix from './Functionsix';
 import Functionseven from './Functionseven';
 import Functioneight from './Functioneight';
+import ClassBasic from './ClassBasic';
+import ClassProps from './ClassProps';
+import ClassHandlers from './ClassHandlers';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,7 +25,10 @@ root.render(
     {/* <Functionfive message = "message 1"/> */}
     {/* <Functionsix/> */}
     {/* <Functionseven/> */}
-    <Functioneight></Functioneight>
+    {/* <Functioneight></Functioneight> */}
+    {/* <ClassBasic></ClassBasic>
+    <ClassProps greet = "morning" greet2 = "evening"/> */}
+    <ClassHandlers count = "1"/>
   </React.StrictMode>
 );
 
