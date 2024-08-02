@@ -1,5 +1,10 @@
+import React from "react"
+import Fragment from "./Fragment"
+
 function App(){
-    return <h1>Hello</h1>
+    return <div>
+        <Fragment></Fragment>
+    </div>
 }
 
 export default App

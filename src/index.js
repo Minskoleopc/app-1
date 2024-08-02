@@ -13,11 +13,15 @@ import Functioneight from './Functioneight';
 import ClassBasic from './ClassBasic';
 import ClassProps from './ClassProps';
 import ClassHandlers from './ClassHandlers';
+import Counter from './Counter';
+import Table from './Table';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App />
-    <App2/> */}
+    <Table/>
+    {/* <App></App> */}
+    {/* /* <App />
+    <App2/> */} 
     {/* <Functionone></Functionone> */}
     {/* <Functiontwo></Functiontwo> */}
     {/* <Functionthree></Functionthree> */}
@@ -28,7 +32,8 @@ root.render(
     {/* <Functioneight></Functioneight> */}
     {/* <ClassBasic></ClassBasic>
     <ClassProps greet = "morning" greet2 = "evening"/> */}
-    <ClassHandlers count = "1"/>
+    {/* <ClassHandlers count = "1"/> */}
+    {/* <Counter/> */}
   </React.StrictMode>
 );
 
