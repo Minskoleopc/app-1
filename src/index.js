@@ -15,10 +15,11 @@ import ClassProps from './ClassProps';
 import ClassHandlers from './ClassHandlers';
 import Counter from './Counter';
 import Table from './Table';
+import ParentC from './ParentC';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Table/>
+    {/* <Table/> */}
     {/* <App></App> */}
     {/* /* <App />
     <App2/> */} 
@@ -34,6 +35,7 @@ root.render(
     <ClassProps greet = "morning" greet2 = "evening"/> */}
     {/* <ClassHandlers count = "1"/> */}
     {/* <Counter/> */}
+    <ParentC></ParentC>
   </React.StrictMode>
 );
 
